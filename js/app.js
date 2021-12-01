@@ -1,5 +1,5 @@
 "use strict";
-let questions = [
+/*let questions = [
     ["What is my first name?", "JOHN", "An outstanding first name, im sure you will agree!"],
     ["Where was i born?", "MT VERNON", "Heh can you say Tulip Festival!"],
     ["Did i live in Alaska?", "YES", "Lots of moose up that way, and bears lots of bears!"],
@@ -43,4 +43,4 @@ function numGame() 0 {
         }
 
         tryCount +=1 ;
-        // end game if won
+        // end game if won */
