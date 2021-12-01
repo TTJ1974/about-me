@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 let counter = 0;
 
 function answerQuestions_yes_or_no(Q_sting, userAnswer, trueAnswer) {
