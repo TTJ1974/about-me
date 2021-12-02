@@ -17,19 +17,21 @@ function answerQuestions_yes_or_no(Q_sting, userAnswer, trueAnswer) {
     } else return score;
 
 }
-let UserInput = prompt("Hello! Could you tell me your name?");
-while (!UserInput) {
-    UserInput = prompt('please provide a name !');
-}
-alert("welcome to my site " + UserInput);
-alert("I would like to ask you a few questions. Just yes or no answers please.");
+    let UserInput = prompt("Hello! Could you tell me your name?");
+    while (!UserInput) {
+        UserInput = prompt('please provide a name !');
+        alert("welcome to my site " + UserInput);
+        alert("I would like to ask you a few questions. Just yes or no answers please.");
+    }
 
 
+function questOne(){
 let Question01 = "Is my name John? "
 let nameGuess = prompt(Question01).toLowerCase();
 answerQuestions_yes_or_no(Question01, nameGuess, 'y');
 //console.log("counter1 ", counter)
-
+}
+questOne();
 
 let Question02 = "Was i born in Washington State?"
 let ageGuess = prompt(Question02).toLowerCase();
