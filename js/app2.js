@@ -49,10 +49,13 @@ answerQuestions_yes_or_no(Question03, majorGuess, 'y');
 }
 questThree();
 
+function questFour(){
 let Question04 = "Do i like building things?"
 let statusGuess = prompt(Question04).toLowerCase();
 answerQuestions_yes_or_no(Question04, statusGuess, 'y');
 //console.log("counter4 ", counter)
+}
+questFour();
 
 
 let Question05 = "Is my goal to master PYTHON?"
