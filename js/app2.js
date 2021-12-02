@@ -1,4 +1,4 @@
-/*'use strict';
+'use strict';
 let counter = 0;
 
 function answerQuestions_yes_or_no(Q_sting, userAnswer, trueAnswer) {
@@ -54,7 +54,7 @@ let confermGuess = prompt(Question05).toLowerCase();
 answerQuestions_yes_or_no(Question05, confermGuess, 'y');
 //console.log("counter5= ", counter)
 
-alert(`Looks like you read my bio, your a machine ${UserInput}`);*/
+alert(`Looks like you read my bio, your a machine ${UserInput}`);
 
 let question06 = "how bout you guess a number for me?"
 
