@@ -41,11 +41,13 @@ answerQuestions_yes_or_no(Question02, ageGuess, 'y');
 }
 questTwo();
 
+function questThree(){
 let Question03 = "Do i jump out of perfectly good airplanes ?"
 let majorGuess = prompt(Question03).toLowerCase();
 answerQuestions_yes_or_no(Question03, majorGuess, 'y');
 //console.log("counter3 ", counter)
-
+}
+questThree();
 
 let Question04 = "Do i like building things?"
 let statusGuess = prompt(Question04).toLowerCase();
