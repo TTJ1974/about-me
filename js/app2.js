@@ -33,11 +33,13 @@ answerQuestions_yes_or_no(Question01, nameGuess, 'y');
 }
 questOne();
 
+function questTwo(){
 let Question02 = "Was i born in Washington State?"
 let ageGuess = prompt(Question02).toLowerCase();
 answerQuestions_yes_or_no(Question02, ageGuess, 'y');
 //console.log("counter2 ", counter)
-
+}
+questTwo();
 
 let Question03 = "Do i jump out of perfectly good airplanes ?"
 let majorGuess = prompt(Question03).toLowerCase();
