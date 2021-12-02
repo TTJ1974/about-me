@@ -58,10 +58,13 @@ answerQuestions_yes_or_no(Question04, statusGuess, 'y');
 questFour();
 
 
+function questFive(){
 let Question05 = "Is my goal to master PYTHON?"
 let confermGuess = prompt(Question05).toLowerCase();
 answerQuestions_yes_or_no(Question05, confermGuess, 'y');
 //console.log("counter5= ", counter)
+}
+questFive();
 
 alert(`Looks like you read my bio, your a machine ${UserInput}`);
 
