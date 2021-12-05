@@ -1,24 +1,21 @@
 'use strict';
 
 let user= prompt('Hello, whats your name?');
-// console.log(user)
 alert ('welcome to my site ' + user);
 
-
 let game= window.confirm('Lets play a guessing game, OK?');
-
 if (game === true){
   alert('Are you ready? Lets Begin!');
 } else {
   alert('Like you have a choice. Lets do this!');
 }
 
+
 let counter = 0;
 
 function quest1 (){
-  
+
   let ansOne= prompt('Was I born in washington?').toLowerCase();
-  //console.log("Correct, I lived in Saudi Arabia for 2 years")
   if (ansOne === 'yes' || ansOne === 'y'){
     alert('Correct ' + user + '! In Mt. Vernon.');
     counter++;
@@ -32,9 +29,8 @@ quest1();
 
 
 function quest2 (){
-  
+
   let ansTwo= prompt('Did I join the army?').toLowerCase();
-  //console.log('that is correct')
   if (ansTwo === 'yes' || ansTwo === 'y'){
     alert('Correct, Still not sure if that was the right call.');
     counter++;
@@ -49,7 +45,6 @@ quest2();
 function quest3 (){
 
   let ansThree= prompt('Did I Not jump out of perfectly good airplanes?').toLowerCase();
-  //console.log('never')
   if (ansThree === 'yes' || ansThree === 'y'){
     alert('Incorrect. I Did jump out of those airplanes 70 some odd times. ' + user + '.' );
   } else {
@@ -63,7 +58,6 @@ quest3();
 
 function quest4 (){
   let ansFour = prompt('Do I like fabricating sheetmetal?').toLowerCase();
-  //console.log('I sure did')
   if (ansFour === 'yes' || ansFour === 'y'){
     alert('Correct! Its an awesome feeling to take a raw sheet of metal and make something useful.');
     counter++;
@@ -75,7 +69,6 @@ quest4();
 
 function quest5 (){
   let ansFive = prompt('Are boats my passion?').toLowerCase();
-  //console.log('yes I would')
   if (ansFive === 'yes' || ansFive === 'y'){
     alert('Oh yes boats are the things that stir my soul.');
     counter++;
