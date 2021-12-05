@@ -48,10 +48,10 @@ quest2();
 
 function quest3 (){
 
-  let ansThree= prompt('Did I jump out of perfectly good airplanes?').toLowerCase();
+  let ansThree= prompt('Did I Not jump out of perfectly good airplanes?').toLowerCase();
   //console.log('never')
   if (ansThree === 'yes' || ansThree === 'y'){
-    alert('Incorrect. I Did jump out of those airplanes 70 some odd times ' + user + '.' );
+    alert('Incorrect. I Did jump out of those airplanes 70 some odd times. ' + user + '.' );
   } else {
     alert('Correct! There is no such thing as a perfectly good airforce airplane !');
     counter++;
@@ -68,19 +68,19 @@ function quest4 (){
     alert('Correct! Its an awesome feeling to take a raw sheet of metal and make something useful.');
     counter++;
   } else {
-    alert('Sorry wrong answer. Are you sure your read my bio?');
+    alert('nope,nope,nope. Are you sure your read my bio?');
   }
 }
 quest4();
 
 function quest5 (){
-  let ansFive = prompt('Would I like to design video games after Code Fellows?').toLowerCase();
+  let ansFive = prompt('Are boats my passion?').toLowerCase();
   //console.log('yes I would')
   if (ansFive === 'yes' || ansFive === 'y'){
-    alert('Yes I would, whether it be my job or in my own free time I would like to design, code, and release at least one game.');
+    alert('Oh yes boats are the things that stir my soul.');
     counter++;
   } else {
-    alert('Sorry ' + user + ' wrong answer. whether it be my job or in my own free time I would like to design, code, and release at least one game.');
+    alert('Sorry ' + user + ' nope wrong again.I LOVE boats!');
   }
 }
 
@@ -89,48 +89,48 @@ quest5();
 function quest6(){
 
 
-  let correctA = '37';
+  let correctA = '20';
   let attempts = 3;
   let guessNum = prompt('guess a number between 0 and 100.');
 
   while (guessNum !== correctA && attempts > 0){
     attempts--;
-    if (guessNum > 37){
+    if (guessNum > 20){
       alert('that number is too high.');
-    } else if (guessNum < 37){
+    } else if (guessNum < 20){
       alert('that number is too low.');
     }
     guessNum = prompt('Guess Again');
   }
 
-  if(guessNum === '37'){
+  if(guessNum === '20'){
     alert('That is the right number');
     counter++;
   } else {
-    alert('out of guesses the correct answer was 37');
+    alert('out of guesses the correct answer was 20');
   }
 }
 
 quest6 ();
 
 function quest7(){
-  let liquors = ['whiskey', 'rum', 'vodka', 'gin', 'tequila', 'absinthe', 'brandy', 'mezcal', 'rye', 'scotch'];
-  let fav = liquors[9];
-  let fave = liquors[4];
-  let guessLiquor = prompt(`What are my favorite types of liquor?        possible answers include ${liquors[0]}, ${liquors[1]}, ${liquors[2]}, ${liquors[3]}, ${liquors[4]}, ${liquors[5]}, ${liquors[6]}, ${liquors[7]}, ${liquors[8]}, and ${liquors[9]}. There are two correct answers.`).toLowerCase();
-  let attempt = 5;
+  let Beers = ['Trappist Tripel', 'Hefe Weissbeer', 'English Best Bitter', 'West Coast IPA', 'Pilsner', 'Flanders Red', 'Australian Pale Ale', 'Brown Ale', 'Amber Lager', 'Guinness'];
+  let fav = Beers[4];
+  let fave = Beers[2];
+  let guessBeer = prompt(`What are my favorite types of Beer?        possible answers include ${Beers[0]}, ${Beers[1]}, ${Beers[2]}, ${Beers[3]}, ${Beers[4]}, ${Beers[5]}, ${Beers[6]}, ${Beers[7]}, ${Beers[8]}, ${Beers[9]}, ${Beers[10]}, and ${Beers[11]}. There are two correct answers.`).toLowerCase();
+  let attempt = 1;
 
-  while (guessLiquor !== fav && guessLiquor !== fave && attempt > 0){
+  while (guessBeer !== fav && guessBeer !== fave && attempt > 0){
     attempt--;
-    if (guessLiquor !== fav){
-      alert('Wrong Liquor!');
+    if (guessBeer !== fav){
+      alert('Wrong Beer!');
     }
-    guessLiquor = prompt('Guess Again');
+    guessBeer = prompt('Guess Again');
   }
-  if (guessLiquor === fav){
+  if (guessBeer === fav){
     alert(`That is Correct the other correct answer was ${fave}.`);
     counter++;
-  } else if (guessLiquor === fave){
+  } else if (guessBeer === fave){
     alert(`That is correct. The other correct answer was ${fav}.`);
     counter++;
   } else {
