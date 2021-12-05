@@ -1,4 +1,4 @@
-/*'use strict';
+'use strict';
 
 let user= prompt('Hello, whats your name?');
 alert ('welcome to my site ' + user);
