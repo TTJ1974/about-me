@@ -1,6 +1,3 @@
 # about-me
 
-* driver Chuck Altopiedi
-* Navigator John Tucker
-* added funtions to all questions.
-* added to readme
+  This is a little bit about me, lab02 Started on jan 11 2022.
