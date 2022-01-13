@@ -28,7 +28,7 @@ quest1();
 
 
 
-function quest2 (){
+//function quest2 (){
 
   let ansTwo= prompt('Did I join the army?').toLowerCase();
   if (ansTwo === 'yes' || ansTwo === 'y'){
@@ -37,12 +37,12 @@ function quest2 (){
   } else {
     alert ('Incorrect. I joined the army right out of highschool.');
   }
-}
+//}
 
-quest2();
+//quest2();
 
 
-function quest3 (){
+//function quest3 (){
 
   let ansThree= prompt('Did I Not jump out of perfectly good airplanes?').toLowerCase();
   if (ansThree === 'yes' || ansThree === 'y'){
@@ -51,12 +51,12 @@ function quest3 (){
     alert('Correct! There is no such thing as a perfectly good airforce airplane !');
     counter++;
   }
-}
+//}
 
-quest3();
+//quest3();
 
 
-function quest4 (){
+//function quest4 (){
   let ansFour = prompt('Do I like fabricating sheetmetal?').toLowerCase();
   if (ansFour === 'yes' || ansFour === 'y'){
     alert('Correct! Its an awesome feeling to take a raw sheet of metal and make something useful.');
@@ -64,8 +64,8 @@ function quest4 (){
   } else {
     alert('nope,nope,nope. Are you sure your read my bio?');
   }
-}
-quest4();
+//}
+//quest4();
 
 function quest5 (){
   let ansFive = prompt('Are boats my passion?').toLowerCase();
@@ -75,11 +75,11 @@ function quest5 (){
   } else {
     alert('Sorry ' + user + ' nope wrong again.I LOVE boats!');
   }
-}
+//}
 
-quest5();
+//quest5();
 
-function quest6(){
+//function quest6(){
 
 
   let correctA = '20';
@@ -94,7 +94,7 @@ function quest6(){
       alert('that number is too low.');
     }
     guessNum = prompt('Guess Again');
-  }
+  //}
 
   if(guessNum === '20'){
     alert('That is the right number');
@@ -102,11 +102,11 @@ function quest6(){
   } else {
     alert('out of guesses the correct answer was 20');
   }
-}
+//}
 
-quest6 ();
+//quest6 ();
 
-function quest7(){
+//function quest7(){
   let Beers = ['Trappist Tripel', 'Hefe Weissbeer', 'English Best Bitter', 'West Coast IPA', 'Pilsner', 'Flanders Red', 'Australian Pale Ale', 'Brown Ale', 'Amber Lager', 'Guinness'];
   let fav = Beers[4];
   let fave = Beers[2];
@@ -129,9 +129,9 @@ function quest7(){
   } else {
     alert(`you are out of guesses. The correct answers are ${fav} and ${fave}.`);
   }
-}
+//}
 
-quest7();
+//quest7();
 
 
 
