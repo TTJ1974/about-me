@@ -104,9 +104,9 @@ function quest6(){
   }
 }
 
-//quest6 ();
+quest6 ();
 
-//function quest7(){
+function quest7(){
   let Beers = ['Trappist Tripel', 'Hefe Weissbeer', 'English Best Bitter', 'West Coast IPA', 'Pilsner', 'Flanders Red', 'Australian Pale Ale', 'Brown Ale', 'Amber Lager', 'Guinness'];
   let fav = Beers[4];
   let fave = Beers[2];
@@ -129,9 +129,9 @@ function quest6(){
   } else {
     alert(`you are out of guesses. The correct answers are ${fav} and ${fave}.`);
   }
-//}
+}
 
-//quest7();
+quest7();
 
 
 
