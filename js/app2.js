@@ -42,7 +42,7 @@ function quest2 (){
 quest2();
 
 
-//function quest3 (){
+function quest3 (){
 
   let ansThree= prompt('Did I Not jump out of perfectly good airplanes?').toLowerCase();
   if (ansThree === 'yes' || ansThree === 'y'){
@@ -51,9 +51,9 @@ quest2();
     alert('Correct! There is no such thing as a perfectly good airforce airplane !');
     counter++;
   }
-//}
+}
 
-//quest3();
+quest3();
 
 
 //function quest4 (){
