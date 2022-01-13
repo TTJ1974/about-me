@@ -56,7 +56,7 @@ function quest3 (){
 quest3();
 
 
-//function quest4 (){
+function quest4 (){
   let ansFour = prompt('Do I like fabricating sheetmetal?').toLowerCase();
   if (ansFour === 'yes' || ansFour === 'y'){
     alert('Correct! Its an awesome feeling to take a raw sheet of metal and make something useful.');
@@ -64,8 +64,8 @@ quest3();
   } else {
     alert('nope,nope,nope. Are you sure your read my bio?');
   }
-//}
-//quest4();
+}
+quest4();
 
 function quest5 (){
   let ansFive = prompt('Are boats my passion?').toLowerCase();
