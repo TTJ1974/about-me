@@ -28,7 +28,7 @@ quest1();
 
 
 
-//function quest2 (){
+function quest2 (){
 
   let ansTwo= prompt('Did I join the army?').toLowerCase();
   if (ansTwo === 'yes' || ansTwo === 'y'){
@@ -37,9 +37,9 @@ quest1();
   } else {
     alert ('Incorrect. I joined the army right out of highschool.');
   }
-//}
+}
 
-//quest2();
+quest2();
 
 
 //function quest3 (){
