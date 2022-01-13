@@ -75,9 +75,9 @@ function quest5 (){
   } else {
     alert('Sorry ' + user + ' nope wrong again.I LOVE boats!');
   }
-//}
+}
 
-//quest5();
+quest5();
 
 //function quest6(){
 
