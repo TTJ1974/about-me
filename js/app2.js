@@ -79,7 +79,7 @@ function quest5 (){
 
 quest5();
 
-//function quest6(){
+function quest6(){
 
 
   let correctA = '20';
@@ -94,7 +94,7 @@ quest5();
       alert('that number is too low.');
     }
     guessNum = prompt('Guess Again');
-  //}
+  }
 
   if(guessNum === '20'){
     alert('That is the right number');
@@ -102,7 +102,7 @@ quest5();
   } else {
     alert('out of guesses the correct answer was 20');
   }
-//}
+}
 
 //quest6 ();
 
