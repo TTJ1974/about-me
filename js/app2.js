@@ -109,7 +109,7 @@ if(guessNum === '20'){
 //function quest7(){
 let Beers = ['Trappist Tripel', 'Hefe Weissbeer', 'English Best Bitter', 'West Coast IPA', 'Pilsner', 'Flanders Red', 'Australian Pale Ale', 'Brown Ale', 'Amber Lager', 'Guinness'];
 let fav = Beers[4];
-let fave = Beers[2];
+let fave = Beers[5];
 let guessBeer = prompt(`What are my favorite types of Beer?        possible answers include ${Beers[0]}, ${Beers[1]}, ${Beers[2]}, ${Beers[3]}, ${Beers[4]}, ${Beers[5]}, ${Beers[6]}, ${Beers[7]}, ${Beers[8]}, ${Beers[9]}, ${Beers[10]}, and ${Beers[11]}. There are two correct answers.`).toLowerCase();
 let attempt = 1;
 
